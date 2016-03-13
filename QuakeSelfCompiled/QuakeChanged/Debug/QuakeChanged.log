@@ -1,0 +1,88 @@
+﻿Der Buildvorgang wurde am 13.03.2016 21:28:56 gestartet.
+     1>Projekt "F:\PROGRAMM\GitHub.local\QuakeSelfCompiled\QuakeSelfCompiled\QuakeChanged\QuakeChanged.vcxproj" auf Knoten "2", Build Ziel(e).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(392,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (QuakeSelfCompiled.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+     1>ClCompile:
+         D:\Prog\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /IF:\PROGRAMM\GitHub.local\QuakeSelfCompiled\QuakeSelfCompiled\..\_depts\scitech\include /ZI /nologo /W3 /WX- /sdl- /MP /Od /Oy- /D WIN32 /D _CRT_SECURE_NO_WARNINGS /D _DEBUG /D _WINDOWS /D _MBCS /U"-startwindowed" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TC /wd4244 /wd4305 /wd4715 /wd4996 /wd4018 /analyze- /errorReport:prompt menu.c
+         menu.c
+       Link:
+         D:\Prog\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"F:\PROGRAMM\GitHub.local\QuakeSelfCompiled\QuakeSelfCompiled\Debug\QuakeChanged.exe" /INCREMENTAL /NOLOGO /LIBPATH:F:\PROGRAMM\GitHub.local\QuakeSelfCompiled\QuakeSelfCompiled\..\_depts\scitech\lib\win32\vc MGLLT.LIB Winmm.lib DXGUID.lib wsock32.lib d3d10.lib d3dx10d.lib d3d9.lib d3dx9.lib dxerr.lib dxguid.lib dinput8.lib winmm.lib comctl32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /NODEFAULTLIB:LIBC.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"F:\PROGRAMM\GitHub.local\QuakeSelfCompiled\QuakeSelfCompiled\Debug\QuakeChanged.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:\PROGRAMM\GitHub.local\QuakeSelfCompiled\QuakeSelfCompiled\Debug\QuakeChanged.lib" /MACHINE:X86 Debug\winquake.res
+         Debug\cd_win.obj
+         Debug\chase.obj
+         Debug\cl_demo.obj
+         Debug\cl_input.obj
+         Debug\cl_main.obj
+         Debug\cl_parse.obj
+         Debug\cl_tent.obj
+         Debug\cmd.obj
+         Debug\common.obj
+         Debug\conproc.obj
+         Debug\console.obj
+         Debug\crc.obj
+         Debug\cvar.obj
+         Debug\draw.obj
+         Debug\d_edge.obj
+         Debug\d_fill.obj
+         Debug\d_init.obj
+         Debug\d_modech.obj
+         Debug\d_part.obj
+         Debug\d_polyse.obj
+         Debug\d_scan.obj
+         Debug\d_sky.obj
+         Debug\d_sprite.obj
+         Debug\d_surf.obj
+         Debug\d_vars.obj
+         Debug\d_zpoint.obj
+         Debug\host.obj
+         Debug\host_cmd.obj
+         Debug\in_win.obj
+         Debug\keys.obj
+         Debug\mathlib.obj
+         Debug\menu.obj
+         Debug\model.obj
+         Debug\net_dgrm.obj
+         Debug\net_loop.obj
+         Debug\net_main.obj
+         Debug\net_vcr.obj
+         Debug\net_win.obj
+         Debug\net_wins.obj
+         Debug\net_wipx.obj
+         Debug\nonintel.obj
+         Debug\pr_cmds.obj
+         Debug\pr_edict.obj
+         Debug\pr_exec.obj
+         Debug\r_aclip.obj
+         Debug\r_alias.obj
+         Debug\r_bsp.obj
+         Debug\r_draw.obj
+         Debug\r_edge.obj
+         Debug\r_efrag.obj
+         Debug\r_light.obj
+         Debug\r_main.obj
+         Debug\r_misc.obj
+         Debug\r_part.obj
+         Debug\r_sky.obj
+         Debug\r_sprite.obj
+         Debug\r_surf.obj
+         Debug\r_vars.obj
+         Debug\sbar.obj
+         Debug\screen.obj
+         Debug\snd_dma.obj
+         Debug\snd_mem.obj
+         Debug\snd_mix.obj
+         Debug\snd_win.obj
+         Debug\sv_main.obj
+         Debug\sv_move.obj
+         Debug\sv_phys.obj
+         Debug\sv_user.obj
+         Debug\sys_win.obj
+         Debug\vid_win.obj
+         Debug\view.obj
+         Debug\wad.obj
+         Debug\world.obj
+         Debug\zone.obj
+         QuakeChanged.vcxproj -> F:\PROGRAMM\GitHub.local\QuakeSelfCompiled\QuakeSelfCompiled\Debug\QuakeChanged.exe
+     1>Die Erstellung von Projekt "F:\PROGRAMM\GitHub.local\QuakeSelfCompiled\QuakeSelfCompiled\QuakeChanged\QuakeChanged.vcxproj" ist abgeschlossen (Build Ziel(e)).
+
+Der Buildvorgang wurde erfolgreich ausgeführt.
+
+Verstrichene Zeit 00:00:01.33

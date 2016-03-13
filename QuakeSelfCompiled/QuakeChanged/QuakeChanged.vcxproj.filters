@@ -1,0 +1,456 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="nonintel.c">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="cd_win.c">
+      <Filter>Source\Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="cl_input.c">
+      <Filter>Source\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="cmd.c">
+      <Filter>Source\Helper</Filter>
+    </ClCompile>
+    <ClCompile Include="crc.c">
+      <Filter>Source\Helper</Filter>
+    </ClCompile>
+    <ClCompile Include="cvar.c">
+      <Filter>Source\Helper</Filter>
+    </ClCompile>
+    <ClCompile Include="d_edge.c">
+      <Filter>Source\Render</Filter>
+    </ClCompile>
+    <ClCompile Include="d_fill.c">
+      <Filter>Source\Render</Filter>
+    </ClCompile>
+    <ClCompile Include="d_init.c">
+      <Filter>Source\Render</Filter>
+    </ClCompile>
+    <ClCompile Include="d_modech.c">
+      <Filter>Source\Render</Filter>
+    </ClCompile>
+    <ClCompile Include="d_part.c">
+      <Filter>Source\Render</Filter>
+    </ClCompile>
+    <ClCompile Include="d_polyse.c">
+      <Filter>Source\Render</Filter>
+    </ClCompile>
+    <ClCompile Include="d_scan.c">
+      <Filter>Source\Render</Filter>
+    </ClCompile>
+    <ClCompile Include="d_sky.c">
+      <Filter>Source\Render</Filter>
+    </ClCompile>
+    <ClCompile Include="d_sprite.c">
+      <Filter>Source\Render</Filter>
+    </ClCompile>
+    <ClCompile Include="d_surf.c">
+      <Filter>Source\Render</Filter>
+    </ClCompile>
+    <ClCompile Include="d_vars.c">
+      <Filter>Source\Render</Filter>
+    </ClCompile>
+    <ClCompile Include="d_zpoint.c">
+      <Filter>Source\Render</Filter>
+    </ClCompile>
+    <ClCompile Include="draw.c">
+      <Filter>Source\Render</Filter>
+    </ClCompile>
+    <ClCompile Include="r_aclip.c">
+      <Filter>Source\Render</Filter>
+    </ClCompile>
+    <ClCompile Include="r_alias.c">
+      <Filter>Source\Render</Filter>
+    </ClCompile>
+    <ClCompile Include="r_bsp.c">
+      <Filter>Source\Render</Filter>
+    </ClCompile>
+    <ClCompile Include="r_draw.c">
+      <Filter>Source\Render</Filter>
+    </ClCompile>
+    <ClCompile Include="r_edge.c">
+      <Filter>Source\Render</Filter>
+    </ClCompile>
+    <ClCompile Include="r_efrag.c">
+      <Filter>Source\Render</Filter>
+    </ClCompile>
+    <ClCompile Include="r_light.c">
+      <Filter>Source\Render</Filter>
+    </ClCompile>
+    <ClCompile Include="r_main.c">
+      <Filter>Source\Render</Filter>
+    </ClCompile>
+    <ClCompile Include="r_misc.c">
+      <Filter>Source\Render</Filter>
+    </ClCompile>
+    <ClCompile Include="r_part.c">
+      <Filter>Source\Render</Filter>
+    </ClCompile>
+    <ClCompile Include="r_sky.c">
+      <Filter>Source\Render</Filter>
+    </ClCompile>
+    <ClCompile Include="r_sprite.c">
+      <Filter>Source\Render</Filter>
+    </ClCompile>
+    <ClCompile Include="r_surf.c">
+      <Filter>Source\Render</Filter>
+    </ClCompile>
+    <ClCompile Include="r_vars.c">
+      <Filter>Source\Render</Filter>
+    </ClCompile>
+    <ClCompile Include="snd_dma.c">
+      <Filter>Source\Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="snd_mem.c">
+      <Filter>Source\Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="snd_mix.c">
+      <Filter>Source\Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="snd_win.c">
+      <Filter>Source\Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="vid_win.c">
+      <Filter>Source\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="sys_win.c">
+      <Filter>Source\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="mathlib.c">
+      <Filter>Source\Helper</Filter>
+    </ClCompile>
+    <ClCompile Include="net_dgrm.c">
+      <Filter>Source\Net</Filter>
+    </ClCompile>
+    <ClCompile Include="net_loop.c">
+      <Filter>Source\Net</Filter>
+    </ClCompile>
+    <ClCompile Include="net_main.c">
+      <Filter>Source\Net</Filter>
+    </ClCompile>
+    <ClCompile Include="net_vcr.c">
+      <Filter>Source\Net</Filter>
+    </ClCompile>
+    <ClCompile Include="net_win.c">
+      <Filter>Source\Net</Filter>
+    </ClCompile>
+    <ClCompile Include="net_wins.c">
+      <Filter>Source\Net</Filter>
+    </ClCompile>
+    <ClCompile Include="net_wipx.c">
+      <Filter>Source\Net</Filter>
+    </ClCompile>
+    <ClCompile Include="host.c">
+      <Filter>Source\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="view.c">
+      <Filter>Source\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="world.c">
+      <Filter>Source\GameData</Filter>
+    </ClCompile>
+    <ClCompile Include="zone.c">
+      <Filter>Source\GameData</Filter>
+    </ClCompile>
+    <ClCompile Include="menu.c">
+      <Filter>Source\GameData</Filter>
+    </ClCompile>
+    <ClCompile Include="model.c">
+      <Filter>Source\GameData</Filter>
+    </ClCompile>
+    <ClCompile Include="keys.c">
+      <Filter>Source\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="in_win.c">
+      <Filter>Source\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="host_cmd.c">
+      <Filter>Source\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="common.c">
+      <Filter>Source\Helper</Filter>
+    </ClCompile>
+    <ClCompile Include="screen.c">
+      <Filter>Source\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="pr_exec.c">
+      <Filter>Source\Progs</Filter>
+    </ClCompile>
+    <ClCompile Include="pr_cmds.c">
+      <Filter>Source\Progs</Filter>
+    </ClCompile>
+    <ClCompile Include="pr_edict.c">
+      <Filter>Source\Progs</Filter>
+    </ClCompile>
+    <ClCompile Include="wad.c">
+      <Filter>Source\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="sbar.c">
+      <Filter>Source\Render</Filter>
+    </ClCompile>
+    <ClCompile Include="cl_demo.c">
+      <Filter>Source\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="cl_main.c">
+      <Filter>Source\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="cl_parse.c">
+      <Filter>Source\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="cl_tent.c">
+      <Filter>Source\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="sv_main.c">
+      <Filter>Source\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="sv_move.c">
+      <Filter>Source\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="sv_phys.c">
+      <Filter>Source\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="sv_user.c">
+      <Filter>Source\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="chase.c">
+      <Filter>Source\GameData</Filter>
+    </ClCompile>
+    <ClCompile Include="conproc.c">
+      <Filter>Source\Helper</Filter>
+    </ClCompile>
+    <ClCompile Include="console.c">
+      <Filter>Source\Helper</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="quakedef.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="winquake.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Ressources</Filter>
+    </ClInclude>
+    <ClInclude Include="net.h">
+      <Filter>Header\Net</Filter>
+    </ClInclude>
+    <ClInclude Include="net_dgrm.h">
+      <Filter>Header\Net</Filter>
+    </ClInclude>
+    <ClInclude Include="net_loop.h">
+      <Filter>Header\Net</Filter>
+    </ClInclude>
+    <ClInclude Include="net_ser.h">
+      <Filter>Header\Net</Filter>
+    </ClInclude>
+    <ClInclude Include="net_vcr.h">
+      <Filter>Header\Net</Filter>
+    </ClInclude>
+    <ClInclude Include="net_wins.h">
+      <Filter>Header\Net</Filter>
+    </ClInclude>
+    <ClInclude Include="net_wipx.h">
+      <Filter>Header\Net</Filter>
+    </ClInclude>
+    <ClInclude Include="progs.h">
+      <Filter>Header\Progs</Filter>
+    </ClInclude>
+    <ClInclude Include="progdefs.h">
+      <Filter>Header\Progs</Filter>
+    </ClInclude>
+    <ClInclude Include="pr_comp.h">
+      <Filter>Header\Progs</Filter>
+    </ClInclude>
+    <ClInclude Include="render.h">
+      <Filter>Header\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="r_shared.h">
+      <Filter>Header\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="r_local.h">
+      <Filter>Header\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="zone.h">
+      <Filter>Header\GameData</Filter>
+    </ClInclude>
+    <ClInclude Include="world.h">
+      <Filter>Header\GameData</Filter>
+    </ClInclude>
+    <ClInclude Include="spritegn.h">
+      <Filter>Header\GameData</Filter>
+    </ClInclude>
+    <ClInclude Include="modelgen.h">
+      <Filter>Header\GameData</Filter>
+    </ClInclude>
+    <ClInclude Include="model.h">
+      <Filter>Header\GameData</Filter>
+    </ClInclude>
+    <ClInclude Include="menu.h">
+      <Filter>Header\GameData</Filter>
+    </ClInclude>
+    <ClInclude Include="sound.h">
+      <Filter>Header\Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="cdaudio.h">
+      <Filter>Header\Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="keys.h">
+      <Filter>Header\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="input.h">
+      <Filter>Header\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="d_iface.h">
+      <Filter>Header\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="draw.h">
+      <Filter>Header\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="cvar.h">
+      <Filter>Header\Helper</Filter>
+    </ClInclude>
+    <ClInclude Include="crc.h">
+      <Filter>Header\Helper</Filter>
+    </ClInclude>
+    <ClInclude Include="sbar.h">
+      <Filter>Header\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="dosisms.h">
+      <Filter>Header\Helper</Filter>
+    </ClInclude>
+    <ClInclude Include="mathlib.h">
+      <Filter>Header\Helper</Filter>
+    </ClInclude>
+    <ClInclude Include="cmd.h">
+      <Filter>Header\Helper</Filter>
+    </ClInclude>
+    <ClInclude Include="bspfile.h">
+      <Filter>Header\Helper</Filter>
+    </ClInclude>
+    <ClInclude Include="server.h">
+      <Filter>Header\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="client.h">
+      <Filter>Header\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="console.h">
+      <Filter>Header\Helper</Filter>
+    </ClInclude>
+    <ClInclude Include="conproc.h">
+      <Filter>Header\Helper</Filter>
+    </ClInclude>
+    <ClInclude Include="vid.h">
+      <Filter>Header\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="sys.h">
+      <Filter>Header\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="screen.h">
+      <Filter>Header\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="view.h">
+      <Filter>Header\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="wad.h">
+      <Filter>Header\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="protocol.h">
+      <Filter>Header\Helper</Filter>
+    </ClInclude>
+    <ClInclude Include="common.h">
+      <Filter>Header\Helper</Filter>
+    </ClInclude>
+    <ClInclude Include="anorm_dots.h">
+      <Filter>Header\Unkown</Filter>
+    </ClInclude>
+    <ClInclude Include="anorms.h">
+      <Filter>Header\Unkown</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="qe3.ico">
+      <Filter>Ressources</Filter>
+    </Image>
+    <Image Include="quake.ico">
+      <Filter>Ressources</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="progdefs.q1">
+      <Filter>Ressources</Filter>
+    </None>
+    <None Include="progdefs.q2">
+      <Filter>Ressources</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header">
+      <UniqueIdentifier>{4d4cd9cf-fba8-4e65-90ff-f70943f4276d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source">
+      <UniqueIdentifier>{32badf6c-5825-4662-a2a9-ed74f0d6e4cb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Ressources">
+      <UniqueIdentifier>{4d6ffbb0-0e5c-4f46-add5-7aaccdfd7ba0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header\Net">
+      <UniqueIdentifier>{b387a86a-b674-4f02-a99e-ac0a89f3a22b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header\Progs">
+      <UniqueIdentifier>{92b34975-53b8-4b0d-93b5-ea2e1e791d71}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header\Render">
+      <UniqueIdentifier>{f8d59d29-b37e-4b61-ac14-4f72f5cf5cab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header\GameData">
+      <UniqueIdentifier>{5a5902a3-1c40-4de4-a04a-a2540c61d9a8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header\Sound">
+      <UniqueIdentifier>{e6d586c5-5dda-46c3-bcde-cdec1aadf6e8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header\Input">
+      <UniqueIdentifier>{c58b813c-5691-4566-b517-92a97e342db5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header\Helper">
+      <UniqueIdentifier>{665eafcc-4fad-4c2a-9b1d-6405f8fc7005}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header\Game">
+      <UniqueIdentifier>{be8c97ad-df15-4c63-a871-c0b9e029b944}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header\Unkown">
+      <UniqueIdentifier>{08a62a3c-a148-4590-ad25-6fc6a1c7ae6c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Net">
+      <UniqueIdentifier>{af9a6ed9-6f4c-4eb0-8937-d74a7b5d34f5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\GameData">
+      <UniqueIdentifier>{780feca9-a7d5-4ea3-99ad-8e7cc0231e58}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Input">
+      <UniqueIdentifier>{35ba1b9c-28cf-49c7-ac61-1756a09e3e78}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Helper">
+      <UniqueIdentifier>{f6809773-640b-4d2e-b5b4-6c0d0b977de8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Game">
+      <UniqueIdentifier>{52bf5970-e04f-48ca-858e-1342d80028ea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Sound">
+      <UniqueIdentifier>{1bbbe892-ab1c-4e72-9160-6e729aa4f287}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Render">
+      <UniqueIdentifier>{87fc411c-fb67-47a0-98fd-c6d08dcc2a19}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Progs">
+      <UniqueIdentifier>{7e2c32f4-f7ac-4b37-91d4-b38f6f83dde4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="winquake.rc">
+      <Filter>Ressources</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
